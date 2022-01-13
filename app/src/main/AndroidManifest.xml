@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.esir.toofast">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TooFast">
+        <activity android:name="com.esir.toofast.activities.games.PageShakePhone"
+        android:screenOrientation="portrait" />
+        <activity android:name="com.esir.toofast.activities.ActivityAttenteClient"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.esir.toofast.activities.ActivityAttenteServeur"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.esir.toofast.activities.games.PageLabyrinthe"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.esir.toofast.activities.games.PageClickBall"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.ActivityResults"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.games.PageFlipPhone"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.games.PageStrength"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.ActivitySettings"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.ActivitySolo"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.ActivityMulti"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.esir.toofast.activities.ActivityPractice"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.esir.toofast.activities.ActivityAccueil"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.esir.toofast.activities.games.PageDefiQuestion"
+            android:exported="true" />
+    </application>
+    <uses-permission
+        android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+</manifest>

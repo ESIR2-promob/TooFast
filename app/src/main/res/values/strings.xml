@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">tooFast</string>
+
+    <!--textes pour l'affichage du resultat -->
+    <string name="title_activity_page_attente_serveur">PageAttenteServeur</string>
+    <string name="flipPhoneImage_contentDescription">fliphoneImage</string>
+    <string name="win_text">Jeu réussi</string>
+    <string name="Lose_text">Jeu échoué</string>
+
+    <!--Pseudo non renseigné-->
+    <string name="textAlertDialogPseudo">Saisir un nom</string>
+    <string name="AccueilAlertDialogPseudo">Accueil</string>
+    <string name="AccepterAlertDialogPseudo">Valider</string>
+
+    <!-- Modes de jeu -->
+    <string name="label_multi">Multi</string>
+    <string name="label_solo">Solo</string>
+    <string name="label_entrainement">Entrainement</string>
+    <string name="label_parametres">Paramètres</string>
+
+    <!-- Paramètres -->
+    <string name="eclairage">Gestion du mode d\'éclairage</string>
+    <string name="activer">Activer</string>
+    <string name="tester">Tester</string>
+    <string name="sourdine">Sourdine</string>
+
+    <!-- Vrac -->
+    <string name="hello_world">Hello World!</string>
+    <string name="attente_adversaire_prochain_defi">En attente de l\'adversaire</string>
+    <string name="challenge_X_over">Jeu X / 3 terminé</string>
+    <string name="challenge_over">Jeu terminé</string>
+    <string name="awaiting_server">Attente du serveur</string>
+    <string name="prochain_defis_button_text">Prochain jeu</string>
+    <string name="awaiting_client">Attente du client</string>
+    <string name="scoreDisplay">Vous avez marqué %d points</string>
+    <string name="text_accueil">Vous êtes sur TooFast !</string>
+    <string name="waiting_screen_label">Le jeu commencera une fois le chargement terminé</string>
+    <string name="challenge_1">Défi n°1</string>
+    <string name="challenge_2">Défi n°2</string>
+    <string name="challenge_3">Défi n°3</string>
+    <string name="challenge_4">Défi n°4</string>
+    <string name="challenge_5">Défi n°5</string>
+    <string name="challenge_6">Défi n°6</string>
+    <string name="pret">Prêt</string>
+    <string name="label_entrainement_choisir_defi">Choisissez un défi sur lequel jouer</string>
+    <string name="devices_list">Liste des appareils disponibles</string>
+    <string name="meilleur_score">Meilleur score :\n%d</string>
+    <string name="accueil">Accueil</string>
+    <string name="label_saisie_pseudo">Saisir un pseudo et commencer à jouer</string>
+    <string name="hint_saisie_pseudo">Saisir le nom</string>
+    <string name="commencer">Commencer</string>
+
+    <!-- PageDefiQuestion -->
+    <string name="question1">Quelle est la capitale de l’Australie ?</string>
+    <string name="reponse11">Canberra</string>
+    <string name="reponse12">Paris</string>
+    <string name="reponse13">Sydney</string>
+    <string name="reponse14">Melbourne</string>
+
+    <string name="question2">Quel est la signification de UBI dans Ubisoft ?</string>
+    <string name="reponse21">Union des Bretons Independants</string>
+    <string name="reponse22">Universal Basic Income</string>
+    <string name="reponse23">Union des bobos indonesiens</string>
+    <string name="reponse24">Usen Balten Ignaar</string>
+
+    <string name="question3">Qui est le PDG de General Motors ?</string>
+    <string name="reponse31">Marry Barra</string>
+    <string name="reponse32">Elon Musk</string>
+    <string name="reponse33">Lewis Hamilton</string>
+    <string name="reponse34">Jim Farley</string>
+
+    <string name="question4">Combien de couleurs composent le logo Google ?</string>
+    <string name="reponse41">4</string>
+    <string name="reponse42">2</string>
+    <string name="reponse43">3</string>
+    <string name="reponse44">5</string>
+
+    <string name="question5">Que veut dire NFC ?</string>
+    <string name="reponse51">Near Field Communication</string>
+    <string name="reponse52">Net Phone Communication</string>
+    <string name="reponse53">Nation Franco Colombienne</string>
+    <string name="reponse54">La réponse d</string>
+
+    <!-- PageLabyrinthe -->
+    <string name="titre_page_labyrinthe">Labyrinthe</string>
+    <string name="regle_labyrinthe">Règle : faire descendre la balle le plus rapidement possible en faisant bouger le téléphone</string>
+
+    <!-- PageClickball -->
+    <string name="titre_clickball">Click Ball</string>
+    <string name="regle_clickball">Règle : cliquer le plus rapidement possible sur les ronds qui vont s\'afficher à l\'écran</string>
+
+    <!-- PageFlipPhone -->
+    <string name="titre_flip_phone">Flip Phone</string>
+    <string name="regle_flipPhone">Règle : retourner le téléphone le plus rapidement possible</string>
+
+    <!-- PageStrength -->
+    <string name="titre_strength">Strength</string>
+    <string name="regle_strength">Règle : cliquer sur le bouton le plus vite possible quand il apparaît</string>
+
+    <!-- PageShakePhone -->
+    <string name="titre_shakePhone">Shake Phone</string>
+    <string name="regle_shakePhone">Règle : secouer le telephone le plus rapidement possible</string>
+
+</resources>

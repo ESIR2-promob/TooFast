@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.ActivityAccueil">
+
+    <Button
+        android:id="@+id/button_challenge1"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/challenge_1"
+        app:layout_constraintEnd_toStartOf="@+id/button_challenge2"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_challenge1" />
+
+    <Button
+        android:id="@+id/button_challenge2"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="68dp"
+        android:text="@string/challenge_2"
+        app:layout_constraintBottom_toBottomOf="@+id/button_challenge1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_challenge1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_challenge3"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/challenge_3"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/button_challenge4"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_challenge3" />
+
+    <Button
+        android:id="@+id/button_challenge4"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="348dp"
+        android:text="@string/challenge_4"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/button_challenge3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_challenge3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button_challenge5"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/challenge_5"
+        app:iconTint="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/button_challenge6"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_challenge6" />
+
+    <Button
+        android:id="@+id/button_challenge6"
+        style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:text="@string/challenge_6"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/button_challenge5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button_challenge5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/image_challenge1"
+        android:layout_width="71dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/test_icone_flip_phone"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge1"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge1"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/image_challenge2"
+        android:layout_width="69dp"
+        android:layout_height="66dp"
+        android:src="@drawable/question_mark"
+        app:layout_constraintBottom_toBottomOf="@+id/image_challenge1"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge2"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge2"
+        app:layout_constraintTop_toTopOf="@+id/image_challenge1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/image_challenge3"
+        android:layout_width="71dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/touch_screen"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge3"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge3"
+        app:layout_constraintTop_toBottomOf="@+id/button_challenge1" />
+
+    <ImageView
+        android:id="@+id/image_challenge4"
+        android:layout_width="70dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ball"
+        app:layout_constraintBottom_toBottomOf="@+id/image_challenge3"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge4"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge4"
+        app:layout_constraintTop_toBottomOf="@+id/button_challenge2"
+        app:layout_constraintVertical_bias="0.363" />
+
+    <ImageView
+        android:id="@+id/image_challenge5"
+        android:layout_width="141dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge5"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge5"
+        app:layout_constraintTop_toBottomOf="@+id/button_challenge3"
+        app:srcCompat="@drawable/slide_up" />
+
+    <ImageView
+        android:id="@+id/image_challenge6"
+        android:layout_width="92dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_challenge6"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="@+id/button_challenge6"
+        app:layout_constraintTop_toBottomOf="@+id/button_challenge4"
+        app:srcCompat="@drawable/bang_removebg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/label_entrainement_choisir_defi"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
